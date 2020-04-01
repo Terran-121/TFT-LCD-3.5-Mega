@@ -1,7 +1,7 @@
 #include <UTFT.h>
 #include <URTouch.h>
 
-UTFT myGLCD(ILI9481, 38, 39, 40, 41);
+UTFT myGLCD(ILI9486, 38, 39, 40, 41);
 URTouch myTouch( 6, 5, 4, 3, 2);
 //UTFT  myGLCD(ILI9481, 50, 51, 52, 53);
 extern uint8_t BigFont[];
